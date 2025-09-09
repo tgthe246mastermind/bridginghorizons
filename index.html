@@ -625,6 +625,11 @@
             .shop-grid {
                 grid-template-columns: 1fr;
             }
+
+            /* Fix for header blocking content */
+            .section {
+                padding-top: 120px; /* Increased padding to account for navbar height */
+            }
         }
 
         @media (max-width: 480px) {
